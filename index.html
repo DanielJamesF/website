@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#headings">Heading</a>
+                </li>
+                <li>
+                    <a href="#paragraph">Paragraph</a>
+                </li>
+                <li>
+                    <a href="#media">Media</a>
+                </li>
+                <li>
+                    <a href="#forms">Form</a>
+                </li>
+                <li>
+                    <a href="#table">Table</a>
+                </li>
+                <li>
+                    <a href="#other">Other</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Heading -->
+        <section id="headings"> 
+            <h1>Heading1</h1>
+            <h2>Heading2</h2>
+            <h3>Heading3</h3>
+            <h4>Heading4</h4>
+            <h5>Heading5</h5>
+            <h6>Heading6</h6>
+        </section>
+        <!-- Paragraph -->
+        <section id="paragraph">
+            <p>
+                Lorem ipsum dolor sit amet consectetur <strong>adipisicing</strong> elit. Aut laboriosam laborum id dolorem perferendis numquam obcaecati quas, veritatis aliquam similique officiis illo repudiandae iure enim magni <em>quos</em> voluptatum perspiciatis? Voluptas.
+            </p>
+        </section>
+        <!-- Media -->
+        <section id="media">
+            <img src="Images/nature1.png" alt="Nature 1">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/BHACKCNDMW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <!-- Form -->
+        <section id="forms">
+            <form>
+                <div>
+                    <label>Name: </label>
+                    <input type="text"
+                    placeholder="Enter your name"
+                    required>
+                </div>
+                <div>
+                    <label>Surname: </label>
+                    <input type="text"
+                    placeholder="Enter your surname"
+                    required>
+                </div>
+                <div>
+                    <label>Age: </label>
+                    <input type="number"
+                    placeholder="Enter your age"
+                    required>
+                </div>
+                <div>
+                    <label>DOB</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label>Password: </label>
+                    <input type="password"
+                    placeholder="Enter your password">
+                </div>
+                <div>
+                    <label>Gender: </label>
+                    <span>Male</span>
+                    <input type="radio" name="gender">
+                    <span>Female</span>
+                    <input type="radio" name="gender">
+                </div>
+                <div>
+                    <label>Subjects: </label>
+                    <span>HTML5</span>
+                    <input type="checkbox">
+                    <span>CSS</span>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <label>Email: </label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label>Choose a file: </label>
+                    <input type="file">
+                </div>
+                <div>
+                    <label>Url: </label>
+                    <input type="url">
+                </div>
+                <div>
+                    <label>Country: </label>
+                    <select name="country">
+                        <option value="southafrica">
+                            South Africa
+                        </option>
+                        <option value="france">
+                            France
+                        </option>
+                    </select>
+                </div>
+                <input type="submit">
+            </form>
+        </section>
+        <!-- Horizonatal line -->
+        <hr>
+        <!-- Table -->
+        <section id="table">
+            <table border="1px">
+                <thead>
+                    <th>Name</th>
+                    <th>Surname</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Peter</td>
+                        <td>Peterson</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- other -->
+        <section id="other">
+            <!-- textarea -->
+            <textarea cols="30" rows="10">
+                I love pragramming
+            </textarea>
+            <!-- blockquote -->
+            <blockquote>
+                this is my quote
+            </blockquote>
+            <!-- lists -->
+            <h3>Unordered list</h3>
+            <ul>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+            </ul>
+            <h3>Ordered list</h3>
+            <ol>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+            </ol>
+            <!-- code -->
+            <code>
+                let numb1 = 9;
+            </code>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2022</p>
+    </footer>
+</body>
+</html>
